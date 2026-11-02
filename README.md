@@ -6,7 +6,7 @@
 
 A calm, cozy little weekly planner for turning overwhelming to-do lists into small, doable steps. 🤍
 
-[🌸 **Live Demo**](https://YOUR-USERNAME.github.io/little-by-little/) &nbsp;·&nbsp; [💻 **Source Code**](https://github.com/YOUR-USERNAME/little-by-little)
+[🌸 **Live Demo**](https://triptii-05.github.io/little-by-little/) &nbsp;·&nbsp; [💻 **Source Code**](https://github.com/triptii-05/little-by-little.git)
 
 </div>
 
