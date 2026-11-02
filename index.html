@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Little by Little – Small plans, big progress</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><nav class="nav" aria-label="Main">
+<a class="brand" href="#home">Little by Little</a>
+<a class="l" href="#home">Home</a><a class="l" href="#about">About</a><a class="l" href="#planner">My Planner</a><a class="l" href="#features">Features</a><a class="l" href="#contact">Contact</a>
+<a class="btn" href="#planner">Start Planning</a>
+</nav></header>
+<main>
+<section class="w" id="home">
+<h1>Little by Little</h1>
+<p class="tag">Small plans, big progress.</p>
+<p>A little space to organize your thoughts, plan your days, and make every week count. Turn overwhelming to-do lists into small, achievable steps and create a routine that works for you.</p>
+<a class="btn" href="#planner">Start Planning →</a>
+</section>
+<section class="w" id="about">
+<h2>A little about us.</h2>
+<p>Little by Little is your personal online space to plan, organize, and grow. We believe that productivity isn’t about doing everything at once; it’s about making small, consistent progress every day.</p>
+<p>Whether you’re managing studies, work, personal goals, or everyday tasks, we’re here to help you stay on track without feeling overwhelmed.</p>
+</section>
+<section class="w" id="how">
+<h2>Three little steps.</h2>
+<div class="steps">
+<div><small>Step 1</small><h3>Set your goals</h3><p>Decide what matters most this week. Write down your goals and priorities.</p></div>
+<div><small>Step 2</small><h3>Plan your days</h3><p>Organize your tasks, create daily to-do lists, and make time for yourself.</p></div>
+<div><small>Step 3</small><h3>Track your progress</h3><p>Check off completed tasks, reflect on your week, and celebrate your little wins.</p></div>
+</div>
+</section>
+<section class="w" id="features">
+<h2>Everything you need, nothing you don’t.</h2>
+<dl>
+<div><dt>Weekly Overview</dt><dd>See your entire week in one place.</dd></div>
+<div><dt>Daily To-Do Lists</dt><dd>Add, edit, and complete daily tasks.</dd></div>
+<div><dt>Goal Setting</dt><dd>Set weekly goals and keep track of them.</dd></div>
+<div><dt>Habit Tracker</dt><dd>Build healthy habits one day at a time.</dd></div>
+<div><dt>Notes Section</dt><dd>Save important thoughts and reminders.</dd></div>
+<div><dt>Progress Tracker</dt><dd>See how much you’ve accomplished.</dd></div>
+<div><dt>Weekly Reflection</dt><dd>Review your achievements and plan for the next week.</dd></div>
+</dl>
+</section>
+<section class="w" id="planner">
+<h2>My Planner</h2>
+<div class="bar">
+<button data-a="prev" aria-label="Previous week">← Previous</button>
+<h3 id="wl" aria-live="polite"></h3>
+<button data-a="next" aria-label="Next week">Next →</button>
+<button data-a="today">This week</button>
+</div>
+<div class="grid">
+<div class="card"><h3>Weekly goals</h3><p class="dt">What matters most this week.</p><ul id="goals"></ul>
+<div class="add"><input type="text" data-a="new" data-t="g" data-d="0" placeholder="Add a goal" aria-label="Add a goal"><button class="sm" data-a="add" data-t="g" data-d="0">Add</button></div></div>
+<div class="card"><h3>Progress</h3><div id="prog"></div></div>
+</div>
+<div class="days" id="days"></div>
+<div class="grid">
+<div class="card"><h3>Habit tracker</h3><p class="dt">Tick a day when you’ve done it.</p><div id="habits"></div>
+<div class="add"><input type="text" data-a="hnew" placeholder="Add a habit" aria-label="Add a habit"><button class="sm" data-a="hadd">Add</button></div></div>
+<div class="card"><label class="t" for="notes">Notes</label><textarea id="notes" placeholder="Thoughts and reminders for this week"></textarea></div>
+<div class="card"><label class="t" for="refl">Weekly reflection</label><textarea id="refl" placeholder="What went well? What will you change next week?"></textarea></div>
+</div>
+<p class="empty">Your planner is saved in this browser, so it will be here when you come back.</p>
+</section>
+<section class="w" id="cta">
+<h2>Ready to make a little progress?</h2>
+<p>You don’t need a perfect plan. You just need a place to start.</p>
+<a class="btn" href="#planner">Create My Week →</a>
+</section>
+</main>
+<footer id="contact">
+<p>Little by Little © 2026</p>
+<p>Small steps. Meaningful progress.</p>
+<p>Made with love ♡</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
